@@ -1,0 +1,9 @@
+fun()
+    vars 
+        int i,
+        int j
+    in
+        i := 10;
+        output j
+    endvars
+endfun

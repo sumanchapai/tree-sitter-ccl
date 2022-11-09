@@ -1,0 +1,21 @@
+{
+  "name": "CCL",
+  "version": "1.0.0",
+  "main": "bindings/node",
+  "license": "MIT",
+  "scripts":{
+      "tree-sitter": "tree-sitter"
+  },
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  },
+  "tree-sitter": [
+	{
+		"scope": "source.ccl",
+		"file-types": ["ccl"]
+  	}
+  ]
+}

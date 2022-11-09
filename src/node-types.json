@@ -1,0 +1,631 @@
+[
+  {
+    "type": "actualParameterList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "actualParameterList",
+          "named": true
+        },
+        {
+          "type": "expressionSequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "actualParameterPart",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "actualParameterList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignmentExpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignmentExpression",
+          "named": true
+        },
+        {
+          "type": "simpleExpression",
+          "named": true
+        },
+        {
+          "type": "variableExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "constant",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "functionConstant",
+          "named": true
+        },
+        {
+          "type": "integerConstant",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignmentExpression",
+          "named": true
+        },
+        {
+          "type": "expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expressionSequence",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "expressionSequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "formalParameterDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "formalParameterType",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "formalParameterDeclarationList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "formalParameterDeclaration",
+          "named": true
+        },
+        {
+          "type": "formalParameterDeclarationList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "formalParameterDeclarationPart",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "formalParameterDeclarationList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "formalParameterType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "unqualifiedFormalParameterType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "formalParameterTypeList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "formalParameterType",
+          "named": true
+        },
+        {
+          "type": "formalParameterTypeList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "formalParameterTypePart",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "formalParameterTypeList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "functionConstant",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expressionSequence",
+          "named": true
+        },
+        {
+          "type": "formalParameterDeclarationPart",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "primaryExpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "actualParameterPart",
+          "named": true
+        },
+        {
+          "type": "constant",
+          "named": true
+        },
+        {
+          "type": "expressionSequence",
+          "named": true
+        },
+        {
+          "type": "primaryExpression",
+          "named": true
+        },
+        {
+          "type": "variableBlock",
+          "named": true
+        },
+        {
+          "type": "variableExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "simpleExpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "primaryExpression",
+          "named": true
+        },
+        {
+          "type": "simpleExpression",
+          "named": true
+        },
+        {
+          "type": "variableExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "functionConstant",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unqualifiedFormalParameterType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "formalParameterType",
+          "named": true
+        },
+        {
+          "type": "formalParameterTypePart",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unqualifiedVariableType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expressionSequence",
+          "named": true
+        },
+        {
+          "type": "variableType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableBlock",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expressionSequence",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "variableType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableDeclarationList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "variableDeclaration",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableExpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expressionSequence",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "primaryExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "formalParameterType",
+          "named": true
+        },
+        {
+          "type": "unqualifiedVariableType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "",
+    "named": false
+  },
+  {
+    "type": "#",
+    "named": false
+  },
+  {
+    "type": "&",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": ":=",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "<>",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": "?",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "con",
+    "named": false
+  },
+  {
+    "type": "continues",
+    "named": false
+  },
+  {
+    "type": "control",
+    "named": false
+  },
+  {
+    "type": "do",
+    "named": false
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "endfun",
+    "named": false
+  },
+  {
+    "type": "endif",
+    "named": false
+  },
+  {
+    "type": "endvars",
+    "named": false
+  },
+  {
+    "type": "endwhile",
+    "named": false
+  },
+  {
+    "type": "fun",
+    "named": false
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "immut",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "input",
+    "named": false
+  },
+  {
+    "type": "int",
+    "named": false
+  },
+  {
+    "type": "integerConstant",
+    "named": true
+  },
+  {
+    "type": "output",
+    "named": false
+  },
+  {
+    "type": "ref",
+    "named": false
+  },
+  {
+    "type": "then",
+    "named": false
+  },
+  {
+    "type": "triv",
+    "named": false
+  },
+  {
+    "type": "vars",
+    "named": false
+  },
+  {
+    "type": "vec",
+    "named": false
+  },
+  {
+    "type": "while",
+    "named": false
+  }
+]
